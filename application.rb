@@ -1,4 +1,4 @@
 require 'sinatra'
 get '/hello/:name' do
-    "Hello, #{params[:name]}!"
+"hello, #{params[:name]}!"
 end
